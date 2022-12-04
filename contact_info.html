@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="Project2-2.css">
+	<title>My Dog</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">home</a></li>
+				<li><a href="#">general information</a></li>
+				 <li><a href="petservices.html">petservices</a></li>
+				<li><a href="contact_info.html">contact info</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<div id="section1">
+		<p>Ulices Montoya</p>
+	</div>
+	
+	<div id="section2">
+		
+		<img src="doggooo.png" alt="pupper" >
+	</div>
+	
+	<div id="section3">
+		<p>Image of happy dog</p>
+	</div>	
+	
+	<div id="section4">
+		<p>required information</p>
+	
+<fieldset id="custInfo"> 
+<legend>Please provide your information</legend>
+
+<div class="formRow">
+<label for="name">Name*</label>
+<input name="custName" id="name" type="text" placeholder="first and last name"   > 
+</div>
+
+<div class="formRow">
+<label for="street">street*</label>
+<input name="custStreet" id="street" type="text"  >
+</div>
+
+<div class="formRow">
+<label for="city">city*</label>
+<input name="custCity" id="city" type="text" value="Downey"  >
+</div>
+
+<div class="formRow">
+<label for="state">state*</label>
+<input name="custState" id="state" type="text" value="CA"   >
+</div>
+
+<div class="formRow">
+<label for="zip">zip*</label>
+<input name="custZip" id="zip" type="text" placeholder="nnnnn (-nnnn)" 
+		pattern="^\d{5}(-\d{4})?$" >
+</div>
+
+<div class="formRow">
+<label for="phone">phone*</label>
+<input name="custPhone" id="phone" type="tel"  placeholder="nnnnn (-nnnn)" 
+		pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" >
+</div>
+
+<div class="formRow">
+<label for="mail">mail*</label>
+<input name="custEmail" id="mail" type="email"  >
+</div>
+
+<div class="formRow"> 
+ <label>Is this the correct information?</label> 
+ <fieldset class="optGroup"> 
+ <label for="fYes">Yes</label> 
+ <input name="sFriend" id="fYes" value="yes" 
+type="radio" > 
+ <label for="fNo">No</label> 
+ <input name="sFriend" id="fNo" value="no" 
+type="radio" > 
+ </fieldset> 
+</div> 
+
+<label for="commBox">Please list any concerns here. we will try to respond with quick accuracy!! !</label> 
+<textarea name="custExp" id="commBox"></textarea>
+
+<div id="buttons"> 
+ <input type="submit" value="Submit for evaluation" > 
+ <input type="reset" value="Cancel" > 
+</div>
+</fieldset>
+	</div>
+	
+
+	<footer>
+		<p>last updated Dec 2</p>
+	</footer>
+	
+	
+	
+	
+	
+</body>
