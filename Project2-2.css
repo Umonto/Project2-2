@@ -112,8 +112,9 @@ div#buttons {
 input[type='submit'], input[type='reset'] { 
  font-size: 1.2em; 
  padding: 5px; 
- margin: 15px; 
+ margin: 25px; 
 }
+
 
 
 
@@ -137,7 +138,7 @@ right/contain no-repeat;
 }
 
 div.gallery {
-  margin: 25px;
+  margin: 30px;
   border: 5px solid #ccc;
   float: left;
   width: 180px;
