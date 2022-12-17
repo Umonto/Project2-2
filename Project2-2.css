@@ -41,8 +41,10 @@ div#section2 {
 	
 }
 
-div#section3 {
+div#section3 > img {
 	grid-area: image;
+	width: 100%;
+	height: 100%;
 }
 
 div#section4 {
